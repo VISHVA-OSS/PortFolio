@@ -72,5 +72,6 @@ export const educationData = [
     id:3,
     degree:"Full Stack Development",
     institution:"NSCHOOL Academy Coimbatore",
+    year:"2025-2026",
   }
 ];
