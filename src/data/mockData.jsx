@@ -28,7 +28,7 @@ export const projectsData = [
   {
     id: 1,
     title: "CRUD Application",
-    description: "A fully responsive e-commerce application with dynamic product routing, cart management, and seamless animations.",
+    description: "A CRUD Application (Create, Read, Update, Delete) is a full-stack web application that allows users to manage data efficiently through a user-friendly interface. This project demonstrates the core operations used in most modern applications, enabling seamless interaction with a database.",
     image: CRUD,
     tech: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://vishva-oss.github.io/CRUD-Application",
@@ -67,5 +67,10 @@ export const educationData = [
     institution: "RAJALAKSHMI GENGUSWAMY MATRIC.HR.SEC SCHOOL,PEDAPPAMPATTI",
     year: "2020 - 2022",
     grade: "Percentage: 65%",
+  },
+  {
+    id:3,
+    degree:"Full Stack Development",
+    institution:"NSCHOOL Academy Coimbatore",
   }
 ];

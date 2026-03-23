@@ -53,6 +53,7 @@ const Education = () => {
                   {edu.description}
                 </p>
                 
+                
               </div>
             </motion.div>
           ))}

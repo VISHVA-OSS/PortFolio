@@ -23,7 +23,7 @@ const Hero = () => {
             {`Hi, my name is`}
           </h2>
           <h1 className="text-5xl md:text-7xl font-bold text-gray-100 mb-4 tracking-tight">
-            {personalData.name}.
+            {personalData.name}
           </h1>
           <h3 className="text-3xl md:text-5xl font-bold text-gray-400 mb-6 h-[50px] md:h-[70px]">
             <ReactTyped
@@ -46,7 +46,7 @@ const Hero = () => {
               offset={-70}
               className="px-8 py-4 rounded bg-transparent border border-accent text-accent font-mono text-sm hover:bg-accent/10 transition-all duration-300 cursor-pointer text-center group shadow-[0_0_10px_rgba(56,189,248,0.2)] hover:shadow-[0_0_20px_rgba(56,189,248,0.4)]"
             >
-              Check out my work!
+              Project's
             </Link>
             <a
               href={personalData.resumeUrl}
