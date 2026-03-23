@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaBootstrap } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaBootstrap, FaNode } from 'react-icons/fa';
 import { SiJavascript, SiTailwindcss, SiTypescript, SiFramer } from 'react-icons/si';
 import CRUD from '../assets/CRUD.png';
 
@@ -21,7 +21,7 @@ export const skillsData = [
   { name: "CSS", icon: <FaCss3Alt size={40} className="text-[#1572B6]" />, level: 85 },
   { name: "Git", icon: <FaGitAlt size={40} className="text-[#F05032]" />, level: 80 },
   { name: "BootStrap", icon: <FaBootstrap size={40} className="text-[#61DAFB]" />, level: 90 },
-  { name: "React BootStrap", icon: <FaBootstrap size={40} className="text-[#61DAFB]" />, level: 90 },
+  { name: "Node.js", icon: <FaNode size={40} className="text-[#61DAFB]" />, level: 90 },
 ];
 
 export const projectsData = [
@@ -33,24 +33,6 @@ export const projectsData = [
     tech: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://vishva-oss.github.io/CRUD-Application",
     liveUrl: "https://vishva-oss.github.io/CRUD-Application/"
-  },
-  {
-    id: 2,
-    title: "Crypto Dashboard",
-    description: "Real-time cryptocurrency tracking featuring live price updates, interactive charts, and portfolio metrics.",
-    image: "https://images.unsplash.com/photo-1621504450181-5d156f8946e6?auto=format&fit=crop&w=800&q=80",
-    tech: ["React", "Framer Motion", "CoinGecko API"],
-    githubUrl: "https://github.com/VISHVA-OSS6",
-    liveUrl: "#"
-  },
-  {
-    id: 3,
-    title: "Taskify Kanban Board",
-    description: "A productivity application offering drag-and-drop task management, customizable workspaces, and smooth UI interactions.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/mathankumar866",
-    liveUrl: "#"
   }
 ];
 
