@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaBootstrap, FaNode } from 'react-icons/fa';
 import { SiJavascript, SiTailwindcss, SiTypescript, SiFramer } from 'react-icons/si';
 import CRUD from '../assets/CRUD.png';
+import BMI from '../assets/BMI.png';
 
 export const personalData = {
   name: "Vishva",
@@ -33,27 +34,36 @@ export const projectsData = [
     tech: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://vishva-oss.github.io/CRUD-Application",
     liveUrl: "https://vishva-oss.github.io/CRUD-Application/"
+  },
+  {
+    id: 2,
+    title: "BMI Calculator",
+    description:"The BMI Calculator is a simple and user-friendly web application that calculates a person's Body Mass Index (BMI) based on their height and weight. It helps users quickly determine whether they fall into categories such as underweight, normal weight, overweight, or obese.",
+    image: BMI,
+    tech: ["REACT"],
+    githubUrl: "https://bmi-7tuf.vercel.app/",
+    liveUrl: "https://bmi-7tuf.vercel.app/"
   }
 ];
 
 export const educationData = [
+   {
+    id:1,
+    degree:"Full Stack Development",
+    institution:"NSCHOOL Academy Coimbatore",
+    year:"2025-2026",
+  },
   {
-    id: 1,
+    id: 2,
     degree: "Bachelor of Commerce & Computer Application",
     institution:"Sree SARASWATHI THYAGARAJA COLLEGE,POLLACHI",
     year: "2022 - 2025",
   },
   {
-    id: 2,
+    id: 3,
     degree: "Higher Secondary",
     institution: "RAJALAKSHMI GENGUSWAMY MATRIC.HR.SEC SCHOOL,PEDAPPAMPATTI",
     year: "2020 - 2022",
     grade: "Percentage: 65%",
   },
-  {
-    id:3,
-    degree:"Full Stack Development",
-    institution:"NSCHOOL Academy Coimbatore",
-    year:"2025-2026",
-  }
 ];
