@@ -2,6 +2,9 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaHtml5, FaCss3Alt, FaNodeJs
 import { SiJavascript, SiTailwindcss, SiTypescript, SiFramer } from 'react-icons/si';
 import CRUD from '../assets/CRUD.png';
 import BMI from '../assets/BMI.png';
+import Burger from '../assets/Burger.png';
+import IP from '../assets/IP.png'
+import { image } from 'framer-motion/client';
 
 export const personalData = {
   name: "Vishva",
@@ -43,6 +46,24 @@ export const projectsData = [
     tech: ["REACT"],
     githubUrl: "https://bmi-7tuf.vercel.app/",
     liveUrl: "https://bmi-7tuf.vercel.app/"
+  },
+  {
+    id:3,
+    title: "Burger King",
+    description:"Burger King is a prominent global chain of fast-food restaurants best known for its signature flame-grilled hamburgers. Founded in 1954 in Miami, Florida, it has grown to become the second-largest fast-food hamburger chain in the world, serving over 11 million guests daily across more than 100 countries.",
+    image: Burger,
+    tech: ["HTML", "CSS"],
+    github: "https://bruger.vercel.app/",
+    liveUrl:"https://bruger.vercel.app/"
+  },
+  {
+    id:4,
+    title: "IP Finder",
+    description:"Burger King is a prominent global chain of fast-food restaurants best known for its signature flame-grilled hamburgers. Founded in 1954 in Miami, Florida, it has grown to become the second-largest fast-food hamburger chain in the world, serving over 11 million guests daily across more than 100 countries.",
+    image: IP,
+    tech: ["JavaScript"],
+    github: "https://ip-finder.vercel.app/",
+    liveUrl:"https://ip-finder.vercel.app/"
   }
 ];
 
