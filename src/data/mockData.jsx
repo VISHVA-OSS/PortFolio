@@ -9,7 +9,7 @@ import { image } from 'framer-motion/client';
 export const personalData = {
   name: "Vishva",
   role: "Frontend Developer",
-  tagline: ["React Developer", "Full Stack Developer"],
+  tagline: ["React Developer", "Full Stack Developer", "Web Desinger"],
   bio: "I am a passionate Full Stack Developer specializing in building exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products utilizing modern web technologies like React, Tailwind CSS, and Framer Motion. I love bringing designs to life through clean, efficient code and engaging animations.",
   email: "svishva600@gmail.com",
   github: "https://github.com/VISHVA-OSS",
