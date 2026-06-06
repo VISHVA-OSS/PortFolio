@@ -39,15 +39,6 @@ export const projectsData = [
     liveUrl: "https://vishva-oss.github.io/CRUD-Application/"
   },
   {
-    id: 2,
-    title: "BMI Calculator",
-    description:"The BMI Calculator is a simple and user-friendly web application that calculates a person's Body Mass Index (BMI) based on their height and weight. It helps users quickly determine whether they fall into categories such as underweight, normal weight, overweight, or obese.",
-    image: BMI,
-    tech: ["REACT"],
-    githubUrl: "https://bmi-7tuf.vercel.app/",
-    liveUrl: "https://bmi-7tuf.vercel.app/"
-  },
-  {
     id:3,
     title: "Burger King",
     description:"Burger King is a prominent global chain of fast-food restaurants best known for its signature flame-grilled hamburgers. Founded in 1954 in Miami, Florida, it has grown to become the second-largest fast-food hamburger chain in the world, serving over 11 million guests daily across more than 100 countries.",
