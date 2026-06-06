@@ -32,7 +32,6 @@ export const projectsData = [
   {
     id: 1,
     title: "CRUD Application",
-    description: "A CRUD Application (Create, Read, Update, Delete) is a full-stack web application that allows users to manage data efficiently through a user-friendly interface. This project demonstrates the core operations used in most modern applications, enabling seamless interaction with a database.",
     image: CRUD,
     tech: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://vishva-oss.github.io/CRUD-Application",
@@ -41,7 +40,6 @@ export const projectsData = [
   {
     id:3,
     title: "Burger King",
-    description:"Burger King is a prominent global chain of fast-food restaurants best known for its signature flame-grilled hamburgers. Founded in 1954 in Miami, Florida, it has grown to become the second-largest fast-food hamburger chain in the world, serving over 11 million guests daily across more than 100 countries.",
     image: Burger,
     tech: ["HTML", "CSS"],
     github: "https://bruger.vercel.app/",
@@ -50,7 +48,6 @@ export const projectsData = [
   {
     id:4,
     title: "IP Finder",
-    description:"Burger King is a prominent global chain of fast-food restaurants best known for its signature flame-grilled hamburgers. Founded in 1954 in Miami, Florida, it has grown to become the second-largest fast-food hamburger chain in the world, serving over 11 million guests daily across more than 100 countries.",
     image: IP,
     tech: ["JavaScript"],
     github: "https://ip-finder.vercel.app/",
