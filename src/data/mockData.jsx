@@ -4,6 +4,7 @@ import CRUD from '../assets/CRUD.png';
 import BMI from '../assets/BMI.png';
 import Burger from '../assets/Burger.png';
 import IP from '../assets/IP.png'
+import Blinkit from '../assets/Blinkit.png'
 import { image } from 'framer-motion/client';
 
 export const personalData = {
@@ -36,6 +37,14 @@ export const projectsData = [
     tech: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://vishva-oss.github.io/CRUD-Application",
     liveUrl: "https://vishva-oss.github.io/CRUD-Application/"
+  },
+  {
+    id: 2,
+    title: "Blinkit",
+    image: Blinkit,
+    tech: ["REACT"],
+    githubUrl: "https://blinkit-one-omega.vercel.app/",
+    liveUrl: "https://blinkit-one-omega.vercel.app/"
   },
   {
     id:3,
